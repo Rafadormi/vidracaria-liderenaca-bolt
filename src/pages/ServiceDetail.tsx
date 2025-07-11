@@ -29,10 +29,10 @@ const ServiceDetail = () => {
     'esquadrias-aluminio': {
       title: 'Esquadrias de Alumínio',
       banner: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop',
-      description: `Nossas esquadrias de alumínio combinam durabilidade, funcionalidade e design moderno. Fabricadas com perfis de alta qualidade e acabamentos que resistem ao tempo, oferecemos janelas, portas e estruturas que atendem tanto projetos residenciais quanto comerciais.
-      description: `Nossas fachadas de vidro combinam estética moderna com funcionalidade superior. Desenvolvemos projetos personalizados que valorizam a arquitetura do seu empreendimento, seja residencial ou comercial.
+      description: `Nossas esquadrias de alumínio combinam durabilidade, funcional\idade e design moderno. Fabricadas com perfis de alta qualidade e acabamentos que resistem ao tempo, oferecemos janelas, portas e estruturas que atendem tanto projetos residenciais quanto comerciais.
+
       Com opções de cores e acabamentos variados, nossas esquadrias se adaptam a qualquer estilo arquitetônico. Todos os produtos passam por rigoroso controle de qualidade e são instalados por profissionais especializados.`,
-      Com vidros de alta performance e sistemas estruturais robustos, garantimos durabilidade, eficiência energética e um visual impressionante que destaca seu projeto no mercado.`,
+      features: [
         'Perfis de alumínio extrudado',
         'Múltiplas opções de cores',
         'Sistemas de abertura variados',
