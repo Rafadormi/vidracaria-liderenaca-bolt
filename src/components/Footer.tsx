@@ -94,6 +94,14 @@ const Footer = () => {
               </p>
             </div>
             
+            <div className="mb-4">
+              <p className="text-gray-300 text-sm font-medium mb-2">Horário de Atendimento:</p>
+              <p className="text-gray-400 text-sm">
+                Segunda a Sexta: 8h às 18h<br />
+                Sábado: 8h às 12h
+              </p>
+            </div>
+            
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
                 <Facebook className="h-6 w-6" />

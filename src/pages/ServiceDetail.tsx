@@ -30,9 +30,9 @@ const ServiceDetail = () => {
       title: 'Esquadrias de Alumínio',
       banner: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop',
       description: `Nossas esquadrias de alumínio combinam durabilidade, funcionalidade e design moderno. Fabricadas com perfis de alta qualidade e acabamentos que resistem ao tempo, oferecemos janelas, portas e estruturas que atendem tanto projetos residenciais quanto comerciais.
-
+      description: `Nossas fachadas de vidro combinam estética moderna com funcionalidade superior. Desenvolvemos projetos personalizados que valorizam a arquitetura do seu empreendimento, seja residencial ou comercial.
       Com opções de cores e acabamentos variados, nossas esquadrias se adaptam a qualquer estilo arquitetônico. Todos os produtos passam por rigoroso controle de qualidade e são instalados por profissionais especializados.`,
-      features: [
+      Com vidros de alta performance e sistemas estruturais robustos, garantimos durabilidade, eficiência energética e um visual impressionante que destaca seu projeto no mercado.`,
         'Perfis de alumínio extrudado',
         'Múltiplas opções de cores',
         'Sistemas de abertura variados',
@@ -64,6 +64,86 @@ const ServiceDetail = () => {
         'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
         'https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
         'https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
+      ]
+    },
+    'espelhos-decorativos': {
+      title: 'Espelhos Decorativos',
+      banner: 'https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop',
+      description: `Nossos espelhos decorativos são produzidos sob medida para criar ambientes únicos e sofisticados. Trabalhamos com diferentes tipos de espelhos, desde os tradicionais até os mais modernos com acabamentos especiais.
+
+      Cada peça é cuidadosamente planejada e executada para harmonizar com a decoração do ambiente, proporcionando amplitude visual e elegância ao espaço.`,
+      features: [
+        'Espelhos sob medida',
+        'Diferentes tipos de acabamento',
+        'Instalação profissional',
+        'Bordas polidas e bisotadas',
+        'Espelhos decorativos temáticos',
+        'Garantia de qualidade'
+      ],
+      gallery: [
+        'https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+        'https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+        'https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
+      ]
+    },
+    'guarda-corpos': {
+      title: 'Guarda-Corpos',
+      banner: 'https://images.pexels.com/photos/1571461/pexels-photo-1571461.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop',
+      description: `Nossos guarda-corpos em vidro oferecem segurança sem comprometer a vista e a estética do ambiente. Ideais para escadas, varandas, mezaninos e áreas externas, combinam proteção e design moderno.
+
+      Fabricados com vidro temperado e estruturas em alumínio de alta resistência, nossos guarda-corpos atendem às normas de segurança mais rigorosas, garantindo tranquilidade e beleza ao seu projeto.`,
+      features: [
+        'Vidro temperado de segurança',
+        'Estruturas em alumínio resistente',
+        'Conformidade com normas técnicas',
+        'Design minimalista',
+        'Fácil limpeza e manutenção',
+        'Instalação certificada'
+      ],
+      gallery: [
+        'https://images.pexels.com/photos/1571461/pexels-photo-1571461.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+        'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+        'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
+      ]
+    },
+    'portas-vidro': {
+      title: 'Portas de Vidro',
+      banner: 'https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop',
+      description: `Nossas portas de vidro temperado são a solução ideal para criar ambientes integrados e modernos. Oferecemos diversos modelos, desde portas de correr até portas pivotantes, sempre priorizando a segurança e o design.
+
+      Com ferragens de alta qualidade e vidros que atendem às normas de segurança, nossas portas proporcionam durabilidade, funcionalidade e um toque de sofisticação aos ambientes.`,
+      features: [
+        'Vidro temperado de 10mm',
+        'Ferragens importadas',
+        'Diversos modelos disponíveis',
+        'Fechaduras de segurança',
+        'Acabamento impecável',
+        'Garantia estendida'
+      ],
+      gallery: [
+        'https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+        'https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+        'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
+      ]
+    },
+    'manutencao-reparos': {
+      title: 'Manutenção e Reparos',
+      banner: 'https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop',
+      description: `Oferecemos serviços completos de manutenção e reparo para vidros e esquadrias de alumínio. Nossa equipe especializada está preparada para solucionar problemas e realizar manutenções preventivas.
+
+      Com atendimento rápido e eficiente, garantimos que seus vidros e esquadrias mantenham sempre a qualidade e funcionalidade originais, prolongando sua vida útil e preservando a segurança.`,
+      features: [
+        'Atendimento emergencial',
+        'Manutenção preventiva',
+        'Troca de vidros quebrados',
+        'Ajuste de esquadrias',
+        'Substituição de ferragens',
+        'Orçamento sem compromisso'
+      ],
+      gallery: [
+        'https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+        'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+        'https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
       ]
     }
   };
